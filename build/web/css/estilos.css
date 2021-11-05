@@ -1,0 +1,268 @@
+.logo{
+    height: 3em !important;
+}
+.wi_auto{
+    width: auto;
+    display: inline-block;
+    vertical-align: bottom;
+}
+.flo-r{
+    float: right;
+}
+.f-pago>select,.f-pago>input{
+   width: 100%;
+   height: 1.5em;
+   margin-bottom:0.5em;
+}
+.cliente_foto{
+    height: 2em;
+    width: 2em;
+    border-radius: 50%;
+    margin: 0 2em ;
+}
+.img-tabla img{
+    height: 5em;
+}
+.pad2{
+    padding: 2em;
+}
+.pad1{
+    padding: 1em;
+}
+#home{
+     background-color: #45b54b;
+     padding: 4%;
+}
+#home>div{
+   
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+}
+
+.lista_compra{
+    
+}
+.lista_compra{
+    width: 95%;
+}
+.lista_compra>div{
+  width: 19%;
+  padding: 0.5em;
+  height: 6em;
+  display: inline-block;
+  vertical-align: top;
+}
+.lista_compra img{
+    max-height: 6em;
+}
+#lista-compra>div>*{
+    display: inline-block;
+}
+.icode{
+    float: right;
+}
+
+
+.bg-2{
+    background: white;
+}
+.bg-1{
+    background: #45b54b;
+}
+.cuadrobox{
+     box-shadow: 0 0 5px 0 rgba(55,50,40,.20);
+}
+.full-vt,.full-tvn-1{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    background: rgba(0,0,0,0.8);
+    display: none;
+}
+.full-tvn-1{
+display: block;
+}
+.admin-editor{
+    width: 60%;
+    overflow: auto;
+    height: 90%;
+    margin: 2.5% auto;
+    background: white;
+    padding: 2%;
+    border-radius: 5px;
+    
+}
+.login-cli{
+    width: 20em;
+    margin: 10% auto;
+    padding: 2%;
+    background: white;
+}
+.boton-cerrar{
+    background: none;
+    color: white;
+    border: none;
+    float: right;
+    padding: 1em 2em;
+    cursor: pointer;
+}
+.perfil{
+    display: none;
+    position: absolute;
+    background: white;
+    padding: 0 1em 0.5em 1em;
+    z-index: 100;
+}
+.fotoperfil{
+    width: 4em;
+    height: 5em;
+}
+.pago_visa{
+    width: 20em;
+    margin: 0 auto;
+    max-width: 90%;
+}
+.comprobante{
+   padding: 5%;
+}
+.comprobante>div{
+    padding: 2%;
+}
+.datos-empresa>div{
+    width: 33%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+.perfil a{
+    display: block;
+}
+.usuario:hover .perfil{
+    display: inline-block;
+}
+.filtros{
+    width: 15%;
+    display: inline-block;
+    vertical-align: top;
+}
+.articulos{
+    width: 85%;
+    display: inline-block
+}
+.lista-articulo>div{
+    max-width: 90%;
+    width: 17em;
+    display: inline-block;
+    float: none;
+    margin: 0.5em;
+    border-radius: 5px;
+    background: white;
+}
+.articulo{
+    transition: 0.5s;
+    box-shadow: 0 0 5px 0 rgba(55,50,40,.20);
+}
+.articulo img{
+    max-height: 12em;
+}
+.articulo h4{
+    max-height: 1.5em;
+    overflow: hidden;
+}
+.articulo p{
+    padding: 0 1em ;
+    font-size: 12px;
+    max-height: 4em;
+    overflow: hidden;
+}
+.articulo>div:hover{
+    background: #82ca9c;
+    color: #fff;
+}
+.agreagar-pro{
+    cursor: pointer;
+    border: 1px solid #f1aa8d;
+    border-radius: 2px;
+    background: #f2885c;
+    color: white;
+    padding: 0 0.5em ;
+}
+.agreagar-pro:hover,.agreagar-pro:focus{
+    color: white !important;
+}
+.ver_pro,.ver_ser{
+    margin: 5% auto;
+    overflow: auto;
+    height: 80%;
+    width: 60%;
+    padding: 1em;
+    border-radius: 5px;
+}
+.contador-carrito{
+    font-size: 1.5em !important;
+    color: #f2885c !important;
+}
+.ver_pro>div{
+    padding:2em;
+}
+.ver_pro>div>div{
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+.ver_pro img{
+    max-height: 20em;
+
+}
+.ver_pro .descripcion{
+    width: 100%;
+}
+.for-agregar-pro input,.for-agregar-pro button{
+    width: 6em !important;
+    display: block;
+    height: 2em;
+
+}
+servicio img{
+    max-height: 20em;
+}
+.servicios>div,.servicio>div{
+    width: 48%;
+    display: inline-block;
+    padding: 0.5em;
+    vertical-align: top;
+}
+.servicio{
+    background: white;
+    transition: 0.5s;
+    box-shadow: 0 0 5px 0 rgba(55,50,40,.20);
+}
+.servicio p{
+    height: 3em;
+    overflow: hidden;
+}
+.carrito>div:first-child{
+    width: 70%;
+    display: inline-block;
+    padding: 0.5em;
+    vertical-align: top;
+}
+.carrito>div:last-child{
+    width: 30%;
+    display: inline-block;
+    padding: 0.5em;
+    vertical-align: top;
+}
+.tabla-compras{
+ width: 100%;   
+}
+@media(max-width:770px){
+   #home>div, .filtros,.ver_pro>div,.articulos,.ver_pro>div>div,.servicios>div,.servicios>div>div,.carrito>div:first-child,.carrito>div:last-child{
+        width: 100%;
+    }
+}
